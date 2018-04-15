@@ -12,9 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.techli.testdrivendesign.Exception.CarNotFoundException;
 import com.techli.testdrivendesign.controller.CarController;
 import com.techli.testdrivendesign.domain.Car;
+import com.techli.testdrivendesign.exception.CarNotFoundException;
 import com.techli.testdrivendesign.service.CarService;
 import static org.mockito.Mockito.*;
 import static org.mockito.BDDMockito.*;

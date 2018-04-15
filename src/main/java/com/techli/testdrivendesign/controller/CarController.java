@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techli.testdrivendesign.Exception.CarNotFoundException;
 import com.techli.testdrivendesign.domain.Car;
+import com.techli.testdrivendesign.exception.CarNotFoundException;
 import com.techli.testdrivendesign.service.CarService;
 
 @RestController
