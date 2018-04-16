@@ -25,8 +25,6 @@ public class IntegrationTest {
 	@Test
 	public void getCar_returnsCarDetails() throws Exception{
 		
-		
-		
 		//arrange
 		
 		//act
@@ -36,8 +34,6 @@ public class IntegrationTest {
 		assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
 		assertThat(response.getBody().getName()).isEqualTo("prius");
 		assertThat(response.getBody().getType()).isEqualTo("hybrid");
-	
-	
 		
 	}
 

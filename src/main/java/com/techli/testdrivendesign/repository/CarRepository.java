@@ -1,11 +1,11 @@
 package com.techli.testdrivendesign.repository;
 
+import org.springframework.data.repository.CrudRepository;
+
 import com.techli.testdrivendesign.domain.Car;
 
-public class CarRepository {
+public interface CarRepository extends CrudRepository<Car, Long>{
 
-	public Car findByName(String name) {
-		return null;
-	}
+	Car findByName(String name); 
 
 }
